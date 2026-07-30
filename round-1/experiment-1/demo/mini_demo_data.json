@@ -1,0 +1,33 @@
+{
+  "datasets": [
+    {
+      "dataset": "synthetic_noisy_timeseries",
+      "examples": [
+        {
+          "input": "Series values up to index 2, seed 0",
+          "output": "1.9850890729957644",
+          "metadata_seed": 0,
+          "metadata_timestep": 3,
+          "predict_naive": "1.0787873343615202",
+          "predict_moving_average": "0.8198538141080084"
+        },
+        {
+          "input": "Series values up to index 3, seed 0",
+          "output": "2.0511350859745066",
+          "metadata_seed": 0,
+          "metadata_timestep": 4,
+          "predict_naive": "1.9850890729957644",
+          "predict_moving_average": "1.1875414474453192"
+        },
+        {
+          "input": "Series values up to index 4, seed 0",
+          "output": "0.852832044869691",
+          "metadata_seed": 0,
+          "metadata_timestep": 5,
+          "predict_naive": "2.0511350859745066",
+          "predict_moving_average": "1.7050038311105968"
+        }
+      ]
+    }
+  ]
+}

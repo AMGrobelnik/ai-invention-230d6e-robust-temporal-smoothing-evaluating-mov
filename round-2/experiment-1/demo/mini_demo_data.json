@@ -1,0 +1,49 @@
+{
+  "datasets": [
+    {
+      "dataset": "synthetic_ts_0",
+      "examples": [
+        {
+          "input": "[1.295377076201385, 3.15337264291365]",
+          "output": "-0.2536808892514738",
+          "metadata_step": 2,
+          "metadata_noise_level": 2.0,
+          "metadata_series_length": 43
+        },
+        {
+          "input": "[1.295377076201385, 3.15337264291365, -0.2536808892514738]",
+          "output": "-0.1463351236055639",
+          "metadata_step": 3,
+          "metadata_noise_level": 2.0,
+          "metadata_series_length": 43
+        },
+        {
+          "input": "[1.295377076201385, 3.15337264291365, -0.2536808892514738, -0.1463351236055639]",
+          "output": "3.587677351405179",
+          "metadata_step": 4,
+          "metadata_noise_level": 2.0,
+          "metadata_series_length": 43
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_ts_1",
+      "examples": [
+        {
+          "input": "[-0.3599221041973543, -0.5826618606401051]",
+          "output": "0.7053847921157214",
+          "metadata_step": 2,
+          "metadata_noise_level": 0.5,
+          "metadata_series_length": 28
+        },
+        {
+          "input": "[-0.3599221041973543, -0.5826618606401051, 0.7053847921157214]",
+          "output": "0.09524037972495542",
+          "metadata_step": 3,
+          "metadata_noise_level": 0.5,
+          "metadata_series_length": 28
+        }
+      ]
+    }
+  ]
+}
