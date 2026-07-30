@@ -1,0 +1,30 @@
+{
+  "metrics_agg": {
+    "overall_mse_naive": 0.5255807224844046,
+    "overall_mse_ma": 0.4350430927261977,
+    "overall_mae_naive": 0.576511476098289,
+    "overall_mae_ma": 0.525841160438532,
+    "paired_t_test_stat": 10.344729348299815,
+    "paired_t_test_pvalue": 1.9385434330909385e-17,
+    "wilcoxon_stat": 185.0,
+    "wilcoxon_pvalue": 8.576774246556675e-16,
+    "seed_win_rate": 0.9
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_noisy_timeseries_evaluated",
+      "examples": [
+        {
+          "input": "Series values up to index 2, seed 0",
+          "output": "1.9850890729957644",
+          "metadata_seed": 0,
+          "metadata_timestep": 3,
+          "predict_naive": 1.0787873343615202,
+          "predict_moving_average": 0.8198538141080084,
+          "eval_mse_naive": 0.8213828414514539,
+          "eval_mse_ma": 1.357773208555216
+        }
+      ]
+    }
+  ]
+}

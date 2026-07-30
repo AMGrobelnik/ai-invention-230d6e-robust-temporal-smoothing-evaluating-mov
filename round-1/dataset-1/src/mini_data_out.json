@@ -1,0 +1,264 @@
+{
+  "datasets": [
+    {
+      "dataset": "synthetic_ts_0",
+      "examples": [
+        {
+          "input": "[1.295377076201385, 3.15337264291365]",
+          "output": "-0.2536808892514738",
+          "metadata_step": 2,
+          "metadata_noise_level": 2.0,
+          "metadata_series_length": 43
+        },
+        {
+          "input": "[1.295377076201385, 3.15337264291365, -0.2536808892514738]",
+          "output": "-0.1463351236055639",
+          "metadata_step": 3,
+          "metadata_noise_level": 2.0,
+          "metadata_series_length": 43
+        },
+        {
+          "input": "[1.295377076201385, 3.15337264291365, -0.2536808892514738, -0.1463351236055639]",
+          "output": "3.587677351405179",
+          "metadata_step": 4,
+          "metadata_noise_level": 2.0,
+          "metadata_series_length": 43
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_ts_1",
+      "examples": [
+        {
+          "input": "[-0.3599221041973543, -0.5826618606401051]",
+          "output": "0.7053847921157214",
+          "metadata_step": 2,
+          "metadata_noise_level": 0.5,
+          "metadata_series_length": 28
+        },
+        {
+          "input": "[-0.3599221041973543, -0.5826618606401051, 0.7053847921157214]",
+          "output": "0.09524037972495542",
+          "metadata_step": 3,
+          "metadata_noise_level": 0.5,
+          "metadata_series_length": 28
+        },
+        {
+          "input": "[-0.3599221041973543, -0.5826618606401051, 0.7053847921157214, 0.09524037972495542]",
+          "output": "0.43260441917421394",
+          "metadata_step": 4,
+          "metadata_noise_level": 0.5,
+          "metadata_series_length": 28
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_ts_2",
+      "examples": [
+        {
+          "input": "[0.3328924404889295, -1.711607217537194]",
+          "output": "0.45677809944783876",
+          "metadata_step": 2,
+          "metadata_noise_level": 1.0,
+          "metadata_series_length": 17
+        },
+        {
+          "input": "[0.3328924404889295, -1.711607217537194, 0.45677809944783876]",
+          "output": "0.02496221378846908",
+          "metadata_step": 3,
+          "metadata_noise_level": 1.0,
+          "metadata_series_length": 17
+        },
+        {
+          "input": "[0.3328924404889295, -1.711607217537194, 0.45677809944783876, 0.02496221378846908]",
+          "output": "-1.1524267047210146",
+          "metadata_step": 4,
+          "metadata_noise_level": 1.0,
+          "metadata_series_length": 17
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_ts_3",
+      "examples": [
+        {
+          "input": "[-0.02566301826925544, -0.0954911288739652]",
+          "output": "0.00995624909257746",
+          "metadata_step": 2,
+          "metadata_noise_level": 0.1,
+          "metadata_series_length": 32
+        },
+        {
+          "input": "[-0.02566301826925544, -0.0954911288739652, 0.00995624909257746]",
+          "output": "-0.20532093646462923",
+          "metadata_step": 3,
+          "metadata_noise_level": 0.1,
+          "metadata_series_length": 32
+        },
+        {
+          "input": "[-0.02566301826925544, -0.0954911288739652, 0.00995624909257746, -0.20532093646462923]",
+          "output": "-0.5003518305991033",
+          "metadata_step": 4,
+          "metadata_noise_level": 0.1,
+          "metadata_series_length": 32
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_ts_4",
+      "examples": [
+        {
+          "input": "[-0.09080531057367283, 0.4266297046285966]",
+          "output": "1.0103599693510301",
+          "metadata_step": 2,
+          "metadata_noise_level": 2.0,
+          "metadata_series_length": 42
+        },
+        {
+          "input": "[-0.09080531057367283, 0.4266297046285966, 1.0103599693510301]",
+          "output": "1.0652461393966075",
+          "metadata_step": 3,
+          "metadata_noise_level": 2.0,
+          "metadata_series_length": 42
+        },
+        {
+          "input": "[-0.09080531057367283, 0.4266297046285966, 1.0103599693510301, 1.0652461393966075]",
+          "output": "0.027223935912050672",
+          "metadata_step": 4,
+          "metadata_noise_level": 2.0,
+          "metadata_series_length": 42
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_ts_5",
+      "examples": [
+        {
+          "input": "[-0.1330074065514785, -0.1260991821428767]",
+          "output": "-0.11282401794184987",
+          "metadata_step": 2,
+          "metadata_noise_level": 0.1,
+          "metadata_series_length": 40
+        },
+        {
+          "input": "[-0.1330074065514785, -0.1260991821428767, -0.11282401794184987]",
+          "output": "-0.4441660237520443",
+          "metadata_step": 3,
+          "metadata_noise_level": 0.1,
+          "metadata_series_length": 40
+        },
+        {
+          "input": "[-0.1330074065514785, -0.1260991821428767, -0.11282401794184987, -0.4441660237520443]",
+          "output": "-0.5902711415544462",
+          "metadata_step": 4,
+          "metadata_noise_level": 0.1,
+          "metadata_series_length": 40
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_ts_6",
+      "examples": [
+        {
+          "input": "[-0.512749934860078, -0.6860722483330114]",
+          "output": "0.03578213391339663",
+          "metadata_step": 2,
+          "metadata_noise_level": 0.5,
+          "metadata_series_length": 27
+        },
+        {
+          "input": "[-0.512749934860078, -0.6860722483330114, 0.03578213391339663]",
+          "output": "0.6058048439465253",
+          "metadata_step": 3,
+          "metadata_noise_level": 0.5,
+          "metadata_series_length": 27
+        },
+        {
+          "input": "[-0.512749934860078, -0.6860722483330114, 0.03578213391339663, 0.6058048439465253]",
+          "output": "-0.7116814581401967",
+          "metadata_step": 4,
+          "metadata_noise_level": 0.5,
+          "metadata_series_length": 27
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_ts_7",
+      "examples": [
+        {
+          "input": "[0.43802259742167515, -0.04673622947409763]",
+          "output": "-0.36530079437906726",
+          "metadata_step": 2,
+          "metadata_noise_level": 1.0,
+          "metadata_series_length": 34
+        },
+        {
+          "input": "[0.43802259742167515, -0.04673622947409763, -0.36530079437906726]",
+          "output": "1.7743565313205498",
+          "metadata_step": 3,
+          "metadata_noise_level": 1.0,
+          "metadata_series_length": 34
+        },
+        {
+          "input": "[0.43802259742167515, -0.04673622947409763, -0.36530079437906726, 1.7743565313205498]",
+          "output": "-0.19210861626193795",
+          "metadata_step": 4,
+          "metadata_noise_level": 1.0,
+          "metadata_series_length": 34
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_ts_8",
+      "examples": [
+        {
+          "input": "[0.01481817313791492, 0.8516414453492318]",
+          "output": "1.521935735316048",
+          "metadata_step": 2,
+          "metadata_noise_level": 0.1,
+          "metadata_series_length": 6
+        },
+        {
+          "input": "[0.01481817313791492, 0.8516414453492318, 1.521935735316048]",
+          "output": "2.2781041690264554",
+          "metadata_step": 3,
+          "metadata_noise_level": 0.1,
+          "metadata_series_length": 6
+        },
+        {
+          "input": "[0.01481817313791492, 0.8516414453492318, 1.521935735316048, 2.2781041690264554]",
+          "output": "3.1184871513420465",
+          "metadata_step": 4,
+          "metadata_noise_level": 0.1,
+          "metadata_series_length": 6
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_ts_9",
+      "examples": [
+        {
+          "input": "[-0.027096226216773874, 0.077520864855124]",
+          "output": "0.16082023618717273",
+          "metadata_step": 2,
+          "metadata_noise_level": 0.1,
+          "metadata_series_length": 47
+        },
+        {
+          "input": "[-0.027096226216773874, 0.077520864855124, 0.16082023618717273]",
+          "output": "0.015237084725878966",
+          "metadata_step": 3,
+          "metadata_noise_level": 0.1,
+          "metadata_series_length": 47
+        },
+        {
+          "input": "[-0.027096226216773874, 0.077520864855124, 0.16082023618717273, 0.015237084725878966]",
+          "output": "0.022704334069614543",
+          "metadata_step": 4,
+          "metadata_noise_level": 0.1,
+          "metadata_series_length": 47
+        }
+      ]
+    }
+  ]
+}

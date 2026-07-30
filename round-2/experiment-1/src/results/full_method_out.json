@@ -1,0 +1,115 @@
+{
+  "summary": "Adaptive moving average forecasting evaluation compared against naive and fixed MA across synthetic benchmarks.",
+  "results": [
+    {
+      "dataset": "synthetic_ts_0",
+      "metrics": {
+        "naive_mse": 6.855111271251327,
+        "naive_rmse": 2.6182267417569713,
+        "fixed_ma_mse": 4.317171466638239,
+        "fixed_ma_rmse": 2.077780418292135,
+        "adaptive_ma_mse": 5.072385402737339,
+        "adaptive_ma_rmse": 2.2521956848234432
+      }
+    },
+    {
+      "dataset": "synthetic_ts_1",
+      "metrics": {
+        "naive_mse": 0.6175594889436857,
+        "naive_rmse": 0.7858495332719144,
+        "fixed_ma_mse": 0.4524513910338118,
+        "fixed_ma_rmse": 0.6726450706232908,
+        "adaptive_ma_mse": 0.5112177889845971,
+        "adaptive_ma_rmse": 0.7149949573141038
+      }
+    },
+    {
+      "dataset": "synthetic_ts_2",
+      "metrics": {
+        "naive_mse": 1.1271040641044578,
+        "naive_rmse": 1.0616515737776013,
+        "fixed_ma_mse": 1.0391424720740239,
+        "fixed_ma_rmse": 1.0193833783587134,
+        "adaptive_ma_mse": 1.0861821329860413,
+        "adaptive_ma_rmse": 1.0422006203155136
+      }
+    },
+    {
+      "dataset": "synthetic_ts_3",
+      "metrics": {
+        "naive_mse": 0.019187858056799848,
+        "naive_rmse": 0.1385202442128942,
+        "fixed_ma_mse": 0.025535108103610222,
+        "fixed_ma_rmse": 0.15979708415240318,
+        "adaptive_ma_mse": 0.04785003704952254,
+        "adaptive_ma_rmse": 0.21874651322826277
+      }
+    },
+    {
+      "dataset": "synthetic_ts_4",
+      "metrics": {
+        "naive_mse": 5.040706840790827,
+        "naive_rmse": 2.24515185250148,
+        "fixed_ma_mse": 3.9118773738899777,
+        "fixed_ma_rmse": 1.9778466507517658,
+        "adaptive_ma_mse": 4.785914529784695,
+        "adaptive_ma_rmse": 2.187673314227857
+      }
+    },
+    {
+      "dataset": "synthetic_ts_5",
+      "metrics": {
+        "naive_mse": 0.04124805955982612,
+        "naive_rmse": 0.20309618302623542,
+        "fixed_ma_mse": 0.07810284630335114,
+        "fixed_ma_rmse": 0.27946886464032294,
+        "adaptive_ma_mse": 0.19048790865191917,
+        "adaptive_ma_rmse": 0.43644920512233626
+      }
+    },
+    {
+      "dataset": "synthetic_ts_6",
+      "metrics": {
+        "naive_mse": 0.5653461077759379,
+        "naive_rmse": 0.7518950111391469,
+        "fixed_ma_mse": 0.3697279078431487,
+        "fixed_ma_rmse": 0.6080525535207862,
+        "adaptive_ma_mse": 0.3718932475521384,
+        "adaptive_ma_rmse": 0.6098305072330659
+      }
+    },
+    {
+      "dataset": "synthetic_ts_7",
+      "metrics": {
+        "naive_mse": 1.832609916409384,
+        "naive_rmse": 1.3537392350114494,
+        "fixed_ma_mse": 1.160457616844063,
+        "fixed_ma_rmse": 1.0772453837654925,
+        "adaptive_ma_mse": 1.1105896812393743,
+        "adaptive_ma_rmse": 1.053845188459564
+      }
+    },
+    {
+      "dataset": "synthetic_ts_8",
+      "metrics": {
+        "naive_mse": 0.5148339600555001,
+        "naive_rmse": 0.7175193098833648,
+        "fixed_ma_mse": 1.9419706700766795,
+        "fixed_ma_rmse": 1.3935460774860224,
+        "adaptive_ma_mse": 1.7081785276616581,
+        "adaptive_ma_rmse": 1.306973040143391
+      }
+    },
+    {
+      "dataset": "synthetic_ts_9",
+      "metrics": {
+        "naive_mse": 0.03131630554443753,
+        "naive_rmse": 0.17696413632269542,
+        "fixed_ma_mse": 0.021237046926856764,
+        "fixed_ma_rmse": 0.1457293619242765,
+        "adaptive_ma_mse": 0.022890729226168624,
+        "adaptive_ma_rmse": 0.15129682490445273
+      }
+    }
+  ]
+}

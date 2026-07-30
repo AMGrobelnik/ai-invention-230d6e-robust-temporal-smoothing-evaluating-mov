@@ -1,0 +1,12 @@
+{
+  "evaluation": {
+    "dataset": "synthetic_noisy_timeseries",
+    "metrics": {
+      "naive_mse": 0.5255807224844046,
+      "moving_average_mse": 0.4350430927261977,
+      "naive_rmse": 0.7249694631392446,
+      "moving_average_rmse": 0.6595779656160428,
+      "paired_t_statistic": 10.21086277400041
+    }
+  }
+}

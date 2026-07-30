@@ -1,0 +1,120 @@
+{
+  "metrics_agg": {
+    "naive_mse": 0.5255807224844046,
+    "moving_average_mse": 0.4350430927261977,
+    "naive_rmse": 0.7249694631392446,
+    "moving_average_rmse": 0.6595779656160428,
+    "paired_t_statistic": 10.21086277400041,
+    "paired_t_p_value": 3.169005479359992e-24,
+    "wilcoxon_statistic": 4672112.0,
+    "wilcoxon_p_value": 5.507370103764005e-20,
+    "num_samples": 4700
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_noisy_timeseries",
+      "examples": [
+        {
+          "input": "Series values up to index 2, seed 0",
+          "output": "1.9850890729957644",
+          "metadata_seed": 0,
+          "metadata_timestep": 3,
+          "predict_naive": "1.0787873343615202",
+          "predict_moving_average": "0.8198538141080084",
+          "eval_naive_squared_error": 0.8213828414514539,
+          "eval_moving_average_squared_error": 1.357773208555216
+        },
+        {
+          "input": "Series values up to index 3, seed 0",
+          "output": "2.0511350859745066",
+          "metadata_seed": 0,
+          "metadata_timestep": 4,
+          "predict_naive": "1.9850890729957644",
+          "predict_moving_average": "1.1875414474453192",
+          "eval_naive_squared_error": 0.004362075830388174,
+          "eval_moving_average_squared_error": 0.7457939725080807
+        },
+        {
+          "input": "Series values up to index 4, seed 0",
+          "output": "0.852832044869691",
+          "metadata_seed": 0,
+          "metadata_timestep": 5,
+          "predict_naive": "2.0511350859745066",
+          "predict_moving_average": "1.7050038311105968",
+          "eval_naive_squared_error": 1.4359301783210496,
+          "eval_moving_average_squared_error": 0.7261967532650161
+        },
+        {
+          "input": "Series values up to index 5, seed 0",
+          "output": "2.007083294730021",
+          "metadata_seed": 0,
+          "metadata_timestep": 6,
+          "predict_naive": "0.852832044869691",
+          "predict_moving_average": "1.6296854012799873",
+          "eval_naive_squared_error": 1.3322959478041343,
+          "eval_moving_average_squared_error": 0.142429169980523
+        },
+        {
+          "input": "Series values up to index 6, seed 0",
+          "output": "1.6097711258396115",
+          "metadata_seed": 0,
+          "metadata_timestep": 7,
+          "predict_naive": "2.007083294730021",
+          "predict_moving_average": "1.6370168085247396",
+          "eval_naive_squared_error": 0.15785695954840132,
+          "eval_moving_average_squared_error": 0.000742327224978693
+        },
+        {
+          "input": "Series values up to index 7, seed 0",
+          "output": "1.7479641771447263",
+          "metadata_seed": 0,
+          "metadata_timestep": 8,
+          "predict_naive": "1.6097711258396115",
+          "predict_moving_average": "1.4898954884797746",
+          "eval_naive_squared_error": 0.0190973194290181,
+          "eval_moving_average_squared_error": 0.06659944806924777
+        },
+        {
+          "input": "Series values up to index 8, seed 0",
+          "output": "2.079146881847381",
+          "metadata_seed": 0,
+          "metadata_timestep": 9,
+          "predict_naive": "1.7479641771447263",
+          "predict_moving_average": "1.7882728659047862",
+          "eval_naive_squared_error": 0.10968198389416582,
+          "eval_moving_average_squared_error": 0.08460769315057294
+        },
+        {
+          "input": "Series values up to index 9, seed 0",
+          "output": "1.9813192124061207",
+          "metadata_seed": 0,
+          "metadata_timestep": 10,
+          "predict_naive": "2.079146881847381",
+          "predict_moving_average": "1.812294061610573",
+          "eval_naive_squared_error": 0.009570252908308497,
+          "eval_moving_average_squared_error": 0.028569501601457676
+        },
+        {
+          "input": "Series values up to index 10, seed 0",
+          "output": "2.635633157301078",
+          "metadata_seed": 0,
+          "metadata_timestep": 11,
+          "predict_naive": "1.9813192124061207",
+          "predict_moving_average": "1.9361434237994093",
+          "eval_naive_squared_error": 0.42812673848400096,
+          "eval_moving_average_squared_error": 0.4892858872742353
+        },
+        {
+          "input": "Series values up to index 11, seed 0",
+          "output": "2.2559820431246473",
+          "metadata_seed": 0,
+          "metadata_timestep": 12,
+          "predict_naive": "2.635633157301078",
+          "predict_moving_average": "2.2320330838515265",
+          "eval_naive_squared_error": 0.14413496849540505,
+          "eval_moving_average_squared_error": 0.0005735526502655986
+        }
+      ]
+    }
+  ]
+}

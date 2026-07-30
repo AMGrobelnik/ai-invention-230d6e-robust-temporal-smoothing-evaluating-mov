@@ -1,0 +1,110 @@
+{
+  "summary": "Adaptive moving average forecasting evaluation compared against naive and fixed MA across synthetic benchmarks.",
+  "datasets": [
+    {
+      "dataset": "synthetic_ts_0",
+      "examples": [
+        {
+          "input": "[1.295377076201385, 3.15337264291365]",
+          "output": "-0.2536808892514738",
+          "metadata_step": 2,
+          "metadata_noise_level": 2.0,
+          "metadata_series_length": 43,
+          "predict_naive": "3.15337264291365",
+          "predict_fixed_ma": "2.2243748595575177",
+          "predict_adaptive_ma": "2.2243748595575177"
+        },
+        {
+          "input": "[1.295377076201385, 3.15337264291365, -0.2536808892514738]",
+          "output": "-0.1463351236055639",
+          "metadata_step": 3,
+          "metadata_noise_level": 2.0,
+          "metadata_series_length": 43,
+          "predict_naive": "-0.2536808892514738",
+          "predict_fixed_ma": "1.3983562766211872",
+          "predict_adaptive_ma": "1.449845876831088"
+        },
+        {
+          "input": "[1.295377076201385, 3.15337264291365, -0.2536808892514738, -0.1463351236055639]",
+          "output": "3.587677351405179",
+          "metadata_step": 4,
+          "metadata_noise_level": 2.0,
+          "metadata_series_length": 43,
+          "predict_naive": "-0.1463351236055639",
+          "predict_fixed_ma": "0.9177855433522041",
+          "predict_adaptive_ma": "-0.20000800642851885"
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_ts_1",
+      "examples": [
+        {
+          "input": "[-0.3599221041973543, -0.5826618606401051]",
+          "output": "0.7053847921157214",
+          "metadata_step": 2,
+          "metadata_noise_level": 0.5,
+          "metadata_series_length": 28,
+          "predict_naive": "-0.5826618606401051",
+          "predict_fixed_ma": "-0.4712919824187297",
+          "predict_adaptive_ma": "-0.4712919824187297"
+        },
+        {
+          "input": "[-0.3599221041973543, -0.5826618606401051, 0.7053847921157214]",
+          "output": "0.09524037972495542",
+          "metadata_step": 3,
+          "metadata_noise_level": 0.5,
+          "metadata_series_length": 28,
+          "predict_naive": "0.7053847921157214",
+          "predict_fixed_ma": "-0.07906639090724603",
+          "predict_adaptive_ma": "-0.07906639090724603"
+        },
+        {
+          "input": "[-0.3599221041973543, -0.5826618606401051, 0.7053847921157214, 0.09524037972495542]",
+          "output": "0.43260441917421394",
+          "metadata_step": 4,
+          "metadata_noise_level": 0.5,
+          "metadata_series_length": 28,
+          "predict_naive": "0.09524037972495542",
+          "predict_fixed_ma": "0.07265443706685724",
+          "predict_adaptive_ma": "0.07265443706685724"
+        }
+      ]
+    },
+    {
+      "dataset": "synthetic_ts_2",
+      "examples": [
+        {
+          "input": "[0.3328924404889295, -1.711607217537194]",
+          "output": "0.45677809944783876",
+          "metadata_step": 2,
+          "metadata_noise_level": 1.0,
+          "metadata_series_length": 17,
+          "predict_naive": "-1.711607217537194",
+          "predict_fixed_ma": "-0.6893573885241322",
+          "predict_adaptive_ma": "-0.6893573885241322"
+        },
+        {
+          "input": "[0.3328924404889295, -1.711607217537194, 0.45677809944783876]",
+          "output": "0.02496221378846908",
+          "metadata_step": 3,
+          "metadata_noise_level": 1.0,
+          "metadata_series_length": 17,
+          "predict_naive": "0.45677809944783876",
+          "predict_fixed_ma": "-0.30731222586680856",
+          "predict_adaptive_ma": "-0.30731222586680856"
+        },
+        {
+          "input": "[0.3328924404889295, -1.711607217537194, 0.45677809944783876, 0.02496221378846908]",
+          "output": "-1.1524267047210146",
+          "metadata_step": 4,
+          "metadata_noise_level": 1.0,
+          "metadata_series_length": 17,
+          "predict_naive": "0.02496221378846908",
+          "predict_fixed_ma": "-0.409955634766962",
+          "predict_adaptive_ma": "-0.409955634766962"
+        }
+      ]
+    }
+  ]
+}

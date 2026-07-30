@@ -1,0 +1,20 @@
+{
+  "summary": "Adaptive moving average forecasting evaluation compared against naive and fixed MA across synthetic benchmarks.",
+  "datasets": [
+    {
+      "dataset": "synthetic_ts_0",
+      "examples": [
+        {
+          "input": "[1.295377076201385, 3.15337264291365]",
+          "output": "-0.2536808892514738",
+          "metadata_step": 2,
+          "metadata_noise_level": 2.0,
+          "metadata_series_length": 43,
+          "predict_naive": "3.15337264291365",
+          "predict_fixed_ma": "2.2243748595575177",
+          "predict_adaptive_ma": "2.2243748595575177"
+        }
+      ]
+    }
+  ]
+}

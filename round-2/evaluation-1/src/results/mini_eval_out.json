@@ -1,0 +1,33 @@
+{
+  "evaluation_summary": {
+    "overall_mse_naive": 0.5255807224844046,
+    "overall_mse_ma": 0.4350430927261977,
+    "overall_mae_naive": 0.576511476098289,
+    "overall_mae_ma": 0.525841160438532,
+    "paired_t_test_stat": 10.344729348299815,
+    "paired_t_test_pvalue": 1.9385434330909385e-17,
+    "wilcoxon_stat": 185.0,
+    "wilcoxon_pvalue": 8.576774246556675e-16,
+    "seed_win_rate": 0.9
+  },
+  "pareto_frontier": [
+    {
+      "window_size": 1,
+      "noise_variance": 0.49163666208773904,
+      "tracking_error": 0.24872065977085964,
+      "mse": 0.4917349200134943
+    },
+    {
+      "window_size": 2,
+      "noise_variance": 0.3803943824335188,
+      "tracking_error": 0.13872363162903603,
+      "mse": 0.3806108508174918
+    },
+    {
+      "window_size": 3,
+      "noise_variance": 0.3524646904288414,
+      "tracking_error": 0.11347550680268853,
+      "mse": 0.3528292469668267
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "summary": "Adaptive moving average forecasting evaluation compared against naive and fixed MA across synthetic benchmarks.",
+  "results": [
+    {
+      "dataset": "synthetic_ts_0",
+      "metrics": {
+        "naive_mse": 6.855111271251327,
+        "naive_rmse": 2.6182267417569713,
+        "fixed_ma_mse": 4.317171466638239,
+        "fixed_ma_rmse": 2.077780418292135,
+        "adaptive_ma_mse": 5.072385402737339,
+        "adaptive_ma_rmse": 2.2521956848234432
+      }
+    }
+  ]
+}

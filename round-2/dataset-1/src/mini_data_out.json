@@ -1,0 +1,1229 @@
+{
+  "datasets": [
+    {
+      "dataset": "synth_trend_season_3",
+      "examples": [
+        {
+          "input": "{\"past_values\": [0.09934283060224654, 0.2722052148865945, 0.7212383757313661]}",
+          "output": "1.1724403832896608",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 3
+        },
+        {
+          "input": "{\"past_values\": [0.2722052148865945, 0.7212383757313661, 1.1724403832896608]}",
+          "output": "1.0743665505169782",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 4
+        },
+        {
+          "input": "{\"past_values\": [0.7212383757313661, 1.1724403832896608, 1.0743665505169782]}",
+          "output": "1.2988147225544684",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 5
+        },
+        {
+          "input": "{\"past_values\": [1.1724403832896608, 1.0743665505169782, 1.2988147225544684]}",
+          "output": "1.8520267598101838",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 6
+        },
+        {
+          "input": "{\"past_values\": [1.0743665505169782, 1.2988147225544684, 1.8520267598101838]}",
+          "output": "1.8426879781472136",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 7
+        },
+        {
+          "input": "{\"past_values\": [1.2988147225544684, 1.8520267598101838, 1.8426879781472136]}",
+          "output": "1.7086833151443621",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 8
+        },
+        {
+          "input": "{\"past_values\": [1.8520267598101838, 1.8426879781472136, 1.7086833151443621]}",
+          "output": "1.9843062417755757",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 9
+        },
+        {
+          "input": "{\"past_values\": [1.8426879781472136, 1.7086833151443621, 1.9843062417755757]}",
+          "output": "1.8172581120447273",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 10
+        },
+        {
+          "input": "{\"past_values\": [1.7086833151443621, 1.9843062417755757, 1.8172581120447273]}",
+          "output": "1.8145370264468157",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 11
+        },
+        {
+          "input": "{\"past_values\": [1.9843062417755757, 1.8172581120447273, 1.8145370264468157]}",
+          "output": "1.9215362371090663",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 12
+        },
+        {
+          "input": "{\"past_values\": [1.8172581120447273, 1.8145370264468157, 1.9215362371090663]}",
+          "output": "1.429090833816867",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 13
+        },
+        {
+          "input": "{\"past_values\": [1.8145370264468157, 1.9215362371090663, 1.429090833816867]}",
+          "output": "1.3850108462744617",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 14
+        },
+        {
+          "input": "{\"past_values\": [1.9215362371090663, 1.429090833816867, 1.3850108462744617]}",
+          "output": "1.5227490244288269",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 15
+        },
+        {
+          "input": "{\"past_values\": [1.429090833816867, 1.3850108462744617, 1.5227490244288269]}",
+          "output": "1.3326610177998306",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 16
+        },
+        {
+          "input": "{\"past_values\": [1.3850108462744617, 1.5227490244288269, 1.3326610177998306]}",
+          "output": "1.5009586457614663",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 17
+        },
+        {
+          "input": "{\"past_values\": [1.5227490244288269, 1.3326610177998306, 1.5009586457614663]}",
+          "output": "1.1701851759910196",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 18
+        },
+        {
+          "input": "{\"past_values\": [1.3326610177998306, 1.5009586457614663, 1.1701851759910196]}",
+          "output": "1.0013126155401166",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 19
+        },
+        {
+          "input": "{\"past_values\": [1.5009586457614663, 1.1701851759910196, 1.0013126155401166]}",
+          "output": "1.5339571877326743",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 20
+        },
+        {
+          "input": "{\"past_values\": [1.1701851759910196, 1.0013126155401166, 1.5339571877326743]}",
+          "output": "1.1835576186553984",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 21
+        },
+        {
+          "input": "{\"past_values\": [1.0013126155401166, 1.5339571877326743, 1.1835576186553984]}",
+          "output": "1.2654569758492888",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 22
+        }
+      ]
+    },
+    {
+      "dataset": "synth_regime_shift_1",
+      "examples": [
+        {
+          "input": "{\"past_values\": [-0.12608839543350453, 0.2912426634006062, 0.6031130749610852]}",
+          "output": "0.669876118786062",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 3
+        },
+        {
+          "input": "{\"past_values\": [0.2912426634006062, 0.6031130749610852, 0.669876118786062]}",
+          "output": "0.5676538031634328",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 4
+        },
+        {
+          "input": "{\"past_values\": [0.6031130749610852, 0.669876118786062, 0.5676538031634328]}",
+          "output": "0.7952106745291652",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 5
+        },
+        {
+          "input": "{\"past_values\": [0.669876118786062, 0.5676538031634328, 0.7952106745291652]}",
+          "output": "1.060465673073151",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 6
+        },
+        {
+          "input": "{\"past_values\": [0.5676538031634328, 0.7952106745291652, 1.060465673073151]}",
+          "output": "0.9156228407748342",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 7
+        },
+        {
+          "input": "{\"past_values\": [0.7952106745291652, 1.060465673073151, 0.9156228407748342]}",
+          "output": "1.043747283740353",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 8
+        },
+        {
+          "input": "{\"past_values\": [1.060465673073151, 0.9156228407748342, 1.043747283740353]}",
+          "output": "1.0496431805699913",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 9
+        },
+        {
+          "input": "{\"past_values\": [0.9156228407748342, 1.043747283740353, 1.0496431805699913]}",
+          "output": "0.8132325391923834",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 10
+        },
+        {
+          "input": "{\"past_values\": [1.043747283740353, 1.0496431805699913, 0.8132325391923834]}",
+          "output": "0.7973127708719561",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 11
+        },
+        {
+          "input": "{\"past_values\": [1.0496431805699913, 0.8132325391923834, 0.7973127708719561]}",
+          "output": "0.34419777168051846",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 12
+        },
+        {
+          "input": "{\"past_values\": [0.8132325391923834, 0.7973127708719561, 0.34419777168051846]}",
+          "output": "0.4040872350808612",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 13
+        },
+        {
+          "input": "{\"past_values\": [0.7973127708719561, 0.34419777168051846, 0.4040872350808612]}",
+          "output": "0.29911510767791305",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 14
+        },
+        {
+          "input": "{\"past_values\": [0.34419777168051846, 0.4040872350808612, 0.29911510767791305]}",
+          "output": "0.0044041156949941734",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 15
+        },
+        {
+          "input": "{\"past_values\": [0.4040872350808612, 0.29911510767791305, 0.0044041156949941734]}",
+          "output": "0.09204266944863411",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 16
+        },
+        {
+          "input": "{\"past_values\": [0.29911510767791305, 0.0044041156949941734, 0.09204266944863411]}",
+          "output": "-0.41173226779059946",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 17
+        },
+        {
+          "input": "{\"past_values\": [0.0044041156949941734, 0.09204266944863411, -0.41173226779059946]}",
+          "output": "-0.4994433732370872",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 18
+        },
+        {
+          "input": "{\"past_values\": [0.09204266944863411, -0.41173226779059946, -0.4994433732370872]}",
+          "output": "-0.6107831085525692",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 19
+        },
+        {
+          "input": "{\"past_values\": [-0.41173226779059946, -0.4994433732370872, -0.6107831085525692]}",
+          "output": "-0.6230773656590816",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 20
+        },
+        {
+          "input": "{\"past_values\": [-0.4994433732370872, -0.6107831085525692, -0.6230773656590816]}",
+          "output": "-1.0233070713049974",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 21
+        },
+        {
+          "input": "{\"past_values\": [-0.6107831085525692, -0.6230773656590816, -1.0233070713049974]}",
+          "output": "-0.8405676312382616",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 22
+        }
+      ]
+    },
+    {
+      "dataset": "synth_random_walk_2",
+      "examples": [
+        {
+          "input": "{\"past_values\": [0.5130887737658207, 1.517797094000886, 0.8685133070913155]}",
+          "output": "1.1999979254366009",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 3
+        },
+        {
+          "input": "{\"past_values\": [1.517797094000886, 0.8685133070913155, 1.1999979254366009]}",
+          "output": "0.9246766408756875",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 4
+        },
+        {
+          "input": "{\"past_values\": [0.8685133070913155, 1.1999979254366009, 0.9246766408756875]}",
+          "output": "0.7311139489933394",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 5
+        },
+        {
+          "input": "{\"past_values\": [1.1999979254366009, 0.9246766408756875, 0.7311139489933394]}",
+          "output": "0.4849169868739048",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 6
+        },
+        {
+          "input": "{\"past_values\": [0.9246766408756875, 0.7311139489933394, 0.4849169868739048]}",
+          "output": "0.10292160203399675",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 7
+        },
+        {
+          "input": "{\"past_values\": [0.7311139489933394, 0.4849169868739048, 0.10292160203399675]}",
+          "output": "0.17718241600641024",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 8
+        },
+        {
+          "input": "{\"past_values\": [0.4849169868739048, 0.10292160203399675, 0.17718241600641024]}",
+          "output": "-0.18829264219910866",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 9
+        },
+        {
+          "input": "{\"past_values\": [0.10292160203399675, 0.17718241600641024, -0.18829264219910866]}",
+          "output": "-0.0030642293091892314",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 10
+        },
+        {
+          "input": "{\"past_values\": [0.17718241600641024, -0.18829264219910866, -0.0030642293091892314]}",
+          "output": "0.021816715966242295",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 11
+        },
+        {
+          "input": "{\"past_values\": [-0.18829264219910866, -0.0030642293091892314, 0.021816715966242295]}",
+          "output": "-0.047657307466962576",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 12
+        },
+        {
+          "input": "{\"past_values\": [-0.0030642293091892314, 0.021816715966242295, -0.047657307466962576]}",
+          "output": "-0.4514391384877615",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 13
+        },
+        {
+          "input": "{\"past_values\": [0.021816715966242295, -0.047657307466962576, -0.4514391384877615]}",
+          "output": "-0.6898248037719279",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 14
+        },
+        {
+          "input": "{\"past_values\": [-0.047657307466962576, -0.4514391384877615, -0.6898248037719279]}",
+          "output": "-0.2621291908590499",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 15
+        },
+        {
+          "input": "{\"past_values\": [-0.4514391384877615, -0.6898248037719279, -0.2621291908590499]}",
+          "output": "0.03832940295314047",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 16
+        },
+        {
+          "input": "{\"past_values\": [-0.6898248037719279, -0.2621291908590499, 0.03832940295314047]}",
+          "output": "-0.40044821944613507",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 17
+        },
+        {
+          "input": "{\"past_values\": [-0.2621291908590499, 0.03832940295314047, -0.40044821944613507]}",
+          "output": "-0.30078206673152214",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 18
+        },
+        {
+          "input": "{\"past_values\": [0.03832940295314047, -0.40044821944613507, -0.30078206673152214]}",
+          "output": "0.12491149495437237",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 19
+        },
+        {
+          "input": "{\"past_values\": [-0.40044821944613507, -0.30078206673152214, 0.12491149495437237]}",
+          "output": "-0.6597911456063135",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 20
+        },
+        {
+          "input": "{\"past_values\": [-0.30078206673152214, 0.12491149495437237, -0.6597911456063135]}",
+          "output": "-0.33811104941634595",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 21
+        },
+        {
+          "input": "{\"past_values\": [0.12491149495437237, -0.6597911456063135, -0.33811104941634595]}",
+          "output": "-0.6194229288892693",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 22
+        }
+      ]
+    },
+    {
+      "dataset": "synth_trend_season_6",
+      "examples": [
+        {
+          "input": "{\"past_values\": [-0.18464664922218088, 0.029521153997564664, 0.396526017515761]}",
+          "output": "1.0785627713296235",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 3
+        },
+        {
+          "input": "{\"past_values\": [0.029521153997564664, 0.396526017515761, 1.0785627713296235]}",
+          "output": "0.9313174476952567",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 4
+        },
+        {
+          "input": "{\"past_values\": [0.396526017515761, 1.0785627713296235, 0.9313174476952567]}",
+          "output": "1.8721185269117826",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 5
+        },
+        {
+          "input": "{\"past_values\": [1.0785627713296235, 0.9313174476952567, 1.8721185269117826]}",
+          "output": "1.6348477768848835",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 6
+        },
+        {
+          "input": "{\"past_values\": [0.9313174476952567, 1.8721185269117826, 1.6348477768848835]}",
+          "output": "1.7261682570556067",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 7
+        },
+        {
+          "input": "{\"past_values\": [1.8721185269117826, 1.6348477768848835, 1.7261682570556067]}",
+          "output": "1.63090663629511",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 8
+        },
+        {
+          "input": "{\"past_values\": [1.6348477768848835, 1.7261682570556067, 1.63090663629511]}",
+          "output": "2.015856208940181",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 9
+        },
+        {
+          "input": "{\"past_values\": [1.7261682570556067, 1.63090663629511, 2.015856208940181]}",
+          "output": "1.794814085359665",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 10
+        },
+        {
+          "input": "{\"past_values\": [1.63090663629511, 2.015856208940181, 1.794814085359665]}",
+          "output": "1.9320849400899394",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 11
+        },
+        {
+          "input": "{\"past_values\": [2.015856208940181, 1.794814085359665, 1.9320849400899394]}",
+          "output": "2.3851606904496183",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 12
+        },
+        {
+          "input": "{\"past_values\": [1.794814085359665, 1.9320849400899394, 2.3851606904496183]}",
+          "output": "1.7925349028034967",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 13
+        },
+        {
+          "input": "{\"past_values\": [1.9320849400899394, 2.3851606904496183, 1.7925349028034967]}",
+          "output": "1.9598490780342035",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 14
+        },
+        {
+          "input": "{\"past_values\": [2.3851606904496183, 1.7925349028034967, 1.9598490780342035]}",
+          "output": "1.4945712452518438",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 15
+        },
+        {
+          "input": "{\"past_values\": [1.7925349028034967, 1.9598490780342035, 1.4945712452518438]}",
+          "output": "1.528229543767323",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 16
+        },
+        {
+          "input": "{\"past_values\": [1.9598490780342035, 1.4945712452518438, 1.528229543767323]}",
+          "output": "1.7922693063695134",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 17
+        },
+        {
+          "input": "{\"past_values\": [1.4945712452518438, 1.528229543767323, 1.7922693063695134]}",
+          "output": "1.2263965795377083",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 18
+        },
+        {
+          "input": "{\"past_values\": [1.528229543767323, 1.7922693063695134, 1.2263965795377083]}",
+          "output": "1.6462630674065606",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 19
+        },
+        {
+          "input": "{\"past_values\": [1.7922693063695134, 1.2263965795377083, 1.6462630674065606]}",
+          "output": "1.3823778210394584",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 20
+        },
+        {
+          "input": "{\"past_values\": [1.2263965795377083, 1.6462630674065606, 1.3823778210394584]}",
+          "output": "1.116219523573852",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 21
+        },
+        {
+          "input": "{\"past_values\": [1.6462630674065606, 1.3823778210394584, 1.116219523573852]}",
+          "output": "1.3784328827228083",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 22
+        }
+      ]
+    },
+    {
+      "dataset": "synth_regime_shift_4",
+      "examples": [
+        {
+          "input": "{\"past_values\": [0.13993554365860023, 0.29191983698640545, 0.3968604922518393]}",
+          "output": "0.5019359149603899",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 3
+        },
+        {
+          "input": "{\"past_values\": [0.29191983698640545, 0.3968604922518393, 0.5019359149603899]}",
+          "output": "0.7894131311201932",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 4
+        },
+        {
+          "input": "{\"past_values\": [0.3968604922518393, 0.5019359149603899, 0.7894131311201932]}",
+          "output": "0.8829826203579652",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 5
+        },
+        {
+          "input": "{\"past_values\": [0.5019359149603899, 0.7894131311201932, 0.8829826203579652]}",
+          "output": "1.023293880157262",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 6
+        },
+        {
+          "input": "{\"past_values\": [0.7894131311201932, 0.8829826203579652, 1.023293880157262]}",
+          "output": "1.0499069675049093",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 7
+        },
+        {
+          "input": "{\"past_values\": [0.8829826203579652, 1.023293880157262, 1.0499069675049093]}",
+          "output": "1.1043206124576637",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 8
+        },
+        {
+          "input": "{\"past_values\": [1.023293880157262, 1.0499069675049093, 1.1043206124576637]}",
+          "output": "0.9186562540710008",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 9
+        },
+        {
+          "input": "{\"past_values\": [1.0499069675049093, 1.1043206124576637, 0.9186562540710008]}",
+          "output": "1.0376649929136241",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 10
+        },
+        {
+          "input": "{\"past_values\": [1.1043206124576637, 0.9186562540710008, 1.0376649929136241]}",
+          "output": "0.8230252669473761",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 11
+        },
+        {
+          "input": "{\"past_values\": [0.9186562540710008, 1.0376649929136241, 0.8230252669473761]}",
+          "output": "0.8758505929499523",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 12
+        },
+        {
+          "input": "{\"past_values\": [1.0376649929136241, 0.8230252669473761, 0.8758505929499523]}",
+          "output": "0.4376072174053334",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 13
+        },
+        {
+          "input": "{\"past_values\": [0.8230252669473761, 0.8758505929499523, 0.4376072174053334]}",
+          "output": "0.49796830313375406",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 14
+        },
+        {
+          "input": "{\"past_values\": [0.8758505929499523, 0.4376072174053334, 0.49796830313375406]}",
+          "output": "0.1489735122377439",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 15
+        },
+        {
+          "input": "{\"past_values\": [0.4376072174053334, 0.49796830313375406, 0.1489735122377439]}",
+          "output": "-0.13634026130597426",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 16
+        },
+        {
+          "input": "{\"past_values\": [0.49796830313375406, 0.1489735122377439, -0.13634026130597426]}",
+          "output": "-0.3171067133999683",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 17
+        },
+        {
+          "input": "{\"past_values\": [0.1489735122377439, -0.13634026130597426, -0.3171067133999683]}",
+          "output": "-0.48747365538682086",
+          "metadata_fold": 3,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 18
+        },
+        {
+          "input": "{\"past_values\": [-0.13634026130597426, -0.3171067133999683, -0.48747365538682086]}",
+          "output": "-0.5814405716409867",
+          "metadata_fold": 4,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 19
+        },
+        {
+          "input": "{\"past_values\": [-0.3171067133999683, -0.48747365538682086, -0.5814405716409867]}",
+          "output": "-0.7149211457621432",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 20
+        },
+        {
+          "input": "{\"past_values\": [-0.48747365538682086, -0.5814405716409867, -0.7149211457621432]}",
+          "output": "-0.9370908565809114",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 21
+        },
+        {
+          "input": "{\"past_values\": [-0.5814405716409867, -0.7149211457621432, -0.9370908565809114]}",
+          "output": "-0.9593194656798559",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "lag_1",
+            "lag_2",
+            "lag_3"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 22
+        }
+      ]
+    }
+  ]
+}
