@@ -1,0 +1,88 @@
+\begin{thebibliography}{15}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Box et~al.(1994)Box, Jenkins, and Reinsel]{box1994time}
+George E.~P. Box, Gwilym~M. Jenkins, and Gregory~C. Reinsel.
+\newblock \emph{Time Series Analysis: Forecasting and Control}.
+\newblock John Wiley \& Sons, 3rd edition, 1994.
+
+\bibitem[Brockwell and Davis(2002)]{brockwell2002introduction}
+Peter~J. Brockwell and Richard~A. Davis.
+\newblock \emph{Introduction to Time Series and Forecasting}.
+\newblock Springer, 2nd edition, 2002.
+
+\bibitem[Brown(1963)]{brown1963smoothing}
+Robert~G. Brown.
+\newblock \emph{Smoothing, Forecasting and Prediction of Discrete Time Series}.
+\newblock Prentice-Hall, 1963.
+
+\bibitem[Granger and Newbold(1986)]{granger1986forecasting}
+Clive W.~J. Granger and Paul Newbold.
+\newblock \emph{Forecasting Economic Time Series}.
+\newblock Academic Press, 2nd edition, 1986.
+
+\bibitem[Hamilton(1994)]{hamilton1994time}
+James~D. Hamilton.
+\newblock \emph{Time Series Analysis}.
+\newblock Princeton University Press, 1994.
+
+\bibitem[Harvey(1989)]{harvey1989forecasting}
+Andrew~C. Harvey.
+\newblock \emph{Forecasting, Structural Time Series Models and the Kalman
+  Filter}.
+\newblock Cambridge University Press, 1989.
+
+\bibitem[Hyndman and Athanasopoulos(2018)]{hyndman2018forecasting}
+Rob~J. Hyndman and George Athanasopoulos.
+\newblock \emph{Forecasting: Principles and Practice}.
+\newblock OTexts, 2nd edition, 2018.
+
+\bibitem[Kendall(1976)]{kendall1976time}
+Maurice Kendall.
+\newblock \emph{Time-Series}.
+\newblock Charles Griffin \& Company, 3rd edition, 1976.
+
+\bibitem[Makridakis and Hibon(2000)]{makridakis2000m3}
+Spyros Makridakis and Michele Hibon.
+\newblock The {M3}-competition: results, conclusions and implications.
+\newblock \emph{International Journal of Forecasting}, 16\penalty0
+  (4):\penalty0 451--476, 2000.
+
+\bibitem[Makridakis et~al.(1998)Makridakis, Wheelwright, and
+  Hyndman]{makridakis1998forecasting}
+Spyros Makridakis, Steven~C. Wheelwright, and Rob~J. Hyndman.
+\newblock \emph{Forecasting: Methods and Applications}.
+\newblock John Wiley \& Sons, 3rd edition, 1998.
+
+\bibitem[Makridakis et~al.(2020)Makridakis, Spiliotis, and
+  Assimakopoulos]{makridakis2020m4}
+Spyros Makridakis, Evangelos Spiliotis, and Vassilios Assimakopoulos.
+\newblock The {M4} competition: Results, findings, conclusion and view.
+\newblock \emph{International Journal of Forecasting}, 36\penalty0
+  (1):\penalty0 54--73, 2020.
+
+\bibitem[Niemel{\"a} and Ter{\"a}svirta(1994)]{niemela1994modelling}
+Hannu Niemel{\"a} and Timo Ter{\"a}svirta.
+\newblock \emph{Modelling Nonlinear Economic Time Series}.
+\newblock Oxford University Press, 1994.
+
+\bibitem[Pollock(1999)]{pollock1999theory}
+J.~S. Pollock.
+\newblock \emph{The Theory of Trend Estimation}.
+\newblock Cambridge University Press, 1999.
+
+\bibitem[Tsay(2010)]{tsay2010analysis}
+Ruey~S. Tsay.
+\newblock \emph{Analysis of Financial Time Series}.
+\newblock John Wiley \& Sons, 3rd edition, 2010.
+
+\bibitem[Wold(1954)]{wold1954study}
+Herman Wold.
+\newblock \emph{A Study in the Analysis of Stationary Time Series}.
+\newblock Almqvist \& Wiksell, 2nd edition, 1954.
+
+\end{thebibliography}
